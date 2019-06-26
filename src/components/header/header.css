@@ -1,0 +1,12 @@
+.head-home {
+  display: flex;
+  flex-direction: row;
+  background-color: red;
+  color: white;
+  text-align: center;
+  justify-content: space-around;
+  align-items: center;
+  margin: 5px;
+  border-radius: 5px;
+  padding: 10px;
+}
