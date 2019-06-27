@@ -5,6 +5,7 @@ import "./App.css";
 
 import Home from "./pages/home/home.js";
 import WorkHistory from "./pages/work-history/work-history.js";
+import "./App.css";
 
 class App extends Component {
   constructor(props) {
@@ -14,8 +15,8 @@ class App extends Component {
 
   render() {
     return (
-      <div styleName="App">
-        <div styleName="content-container">
+      <div className="app">
+        <div className="content-container">
           <Switch>
             <Route exact path="/" component={Home} />,
             <Route exact path="/work-history" component={WorkHistory} />

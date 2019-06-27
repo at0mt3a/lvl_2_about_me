@@ -1,11 +1,19 @@
 .foot-home {
   display: flex;
-  background-color: blue;
+  background: url(../../images/ocean_2.jpg);
   color: white;
   flex-grow: 0.5;
   justify-content: space-around;
   align-items: center;
-  margin: 5px;
   border-radius: 5px;
   padding: 10px;
+  margin: 10px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: blue;
+  align-self: flex-end;
+  font-family: "Lucida Console", Monaco, monospace;
+  text-shadow: 1px 1px black;
+  box-shadow: 2px 2px 2px lawngreen;
+  font-weight: bold;
 }

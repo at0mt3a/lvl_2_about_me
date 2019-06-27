@@ -1,52 +1,13 @@
 .app {
-  text-align: center;
+  background: url("./images/brickwall1.png");
   display: flex;
   flex-direction: column;
   min-height: 100vh;
 }
 
-.app-header {
-  background-color: #282c34;
-  flex-grow: 1;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 1.5vmin);
-  color: white;
-}
-
-.app-background {
-  background-color: royalblue;
-  flex-grow: 6;
-}
-
 .featured-photo {
   width: 100px;
   height: 100px;
-}
-
-.app-main {
-  border-color: red;
-  border-style: solid;
-  border: 3px;
-  border-radius: 5px;
-  color: white;
-  margin: 10px;
-  padding: 5px;
-  display: flex;
-  flex-direction: column;
-}
-
-.app-footer {
-  background-color: #282c34;
-  flex-grow: 1;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 1.5vmin);
-  color: white;
 }
 
 h1 {

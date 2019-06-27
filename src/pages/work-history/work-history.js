@@ -10,7 +10,7 @@ class WorkHistory extends Component {
     return (
       <div>
         <Header />
-        <div>WORK HISTORY</div>
+        <main className="main">WORK HISTORY</main>
         <Footer />
       </div>
     );

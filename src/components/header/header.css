@@ -1,12 +1,19 @@
 .head-home {
   display: flex;
   flex-direction: row;
-  background-color: red;
-  color: white;
+  background: url("../../images/Background_Beach_Sand_2.jpg");
+  color: black;
+  text-shadow: 1px 1px white;
   text-align: center;
   justify-content: space-around;
   align-items: center;
-  margin: 5px;
+  margin: 10px;
   border-radius: 5px;
   padding: 10px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: red;
+  font-family: "Lucida Console", Monaco, monospace;
+  box-shadow: 2px 2px 2px blue;
+  font-weight: bold;
 }
